@@ -36,17 +36,20 @@
 
   &__base {
     z-index: 0;
+    background-image: url(../img/layer-base.png);
     transform: translate3d(0, calc(var(--scrollTop) / 1.6), 0);
     will-change: transform;
   }
 
   &__middle {
     transform: translate3d(0, calc(var(--scrollTop) / 2.5), 0);
+    background-image: url(../img/layer-middle.png);
     will-change: transform;
   }
 
   &__front {
     transform: translate3d(0, calc(var(--scrollTop) / 5.7), 0);
+    background-image: url(../img/layer-front.png);
     will-change: transform;
   }
 }

@@ -1,4 +1,5 @@
 .home {
+  background-image: url(../img/dungeon.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -17,7 +18,6 @@
     text-transform: uppercase;
     font-size: calc(var(--index) * 1.8);
     letter-spacing: calc(var(--index) / 7.5);
-    // transform: var(--main-article-transform);
     transition: var(--transition);
     will-change: transform;
     font-weight: 900;
