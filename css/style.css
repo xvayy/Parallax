@@ -170,6 +170,7 @@ body.dark {
 
 .layers__base {
   z-index: 0;
+  background-image: url(../img/layer-base.png);
   -webkit-transform: translate3d(0, calc(var(--scrollTop) / 1.6), 0);
           transform: translate3d(0, calc(var(--scrollTop) / 1.6), 0);
   will-change: transform;
@@ -178,12 +179,14 @@ body.dark {
 .layers__middle {
   -webkit-transform: translate3d(0, calc(var(--scrollTop) / 2.5), 0);
           transform: translate3d(0, calc(var(--scrollTop) / 2.5), 0);
+  background-image: url(../img/layer-middle.png);
   will-change: transform;
 }
 
 .layers__front {
   -webkit-transform: translate3d(0, calc(var(--scrollTop) / 5.7), 0);
           transform: translate3d(0, calc(var(--scrollTop) / 5.7), 0);
+  background-image: url(../img/layer-front.png);
   will-change: transform;
 }
 
